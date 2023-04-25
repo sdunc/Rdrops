@@ -1,0 +1,13 @@
+﻿<Window x:Class="Rdrops.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rdrops"
+        mc:Ignorable="d"
+        Title="No stars out" Height="400" Width="400"
+        SizeChanged="Window_SizeChanged">
+    <Canvas x:Name="Canvas" Loaded="Canvas_Loaded" MouseDown="Canvas_MouseDown">
+        <Image x:Name="Image"/>
+    </Canvas>
+</Window>
